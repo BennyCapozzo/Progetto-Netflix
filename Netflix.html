@@ -1,188 +1,237 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Netflix</title>
-    </head>
-    <body>
-        <!-- Parte Benny-->
-        <header>
-        <h2>NETFLIX</h2>
-        <form action="#" method="get">
-        <div>
+
+<head>
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Parte Benny-->
+    <header>
+       <!-- <h1 class="logo">NETFLIX</h1>  -->
+          <picture>
+            <img src="Netflix_2015_logo.svg" class="logo"> </picture> 
+            <form action="#" method="get">  -->
+        <div class="select">
             <label for="lingua"></label>
             <select name="lingua" id="lng">
-                <option value="1">italiano</option>
+                <option value="1">Italiano</option>
                 <option value="2">Inglese</option>
             </select>
-            <button type="button" style="background-color: red;">Accedi</button>
+            <a href="#">Accedi</a>
 
         </div>
-        
-            <center>
-                <div>
-                <h1>Film, serie TV e tanto <br> altro. Senza limiti.</h1>
-                <h3>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h3>
-                <h3>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</h3>
-                <label for="email"></label>
-                <textarea cols="60">Indirizzo email</textarea>
-                <button type="submit" style="background-color: red;"><h3>Inizia ></h3></button>
-                </div>
-            </center>
-        </form>
-        </header>
-        <hr>
-        
-        <!-- Parte 2-->
-        <section>         
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="schermo tv_telecomando" style="float: right;">
-                <div style="text-align: left;">
-                    <h1>Goditi Netflix sulla tua TV.</h1> <br>
-                    <h3>Guarda Netflix su smart TV, Playstation, Xbox,
-                    Chromecast, Apple TV, lettori Blu-ray e molti
-                    altri dispositivi.</h3>      
-                </div>
-        </section>
-        <hr style="width: 100%;">
-        <!--Parte 3-->
-        <div class="animation-card-container">
-        <div class="our-story-card-text">
-            <h1 id class="our-story-card-title" data-uia="animation-card-title">Scarica le tue serie da guardare offline.</h1>
-            <h2 id="" class="our-story-card-subtitle" data-uia="our-story-card-subtitle">Salva facilmente i tuoi preferiti così avrai sempre qualcosa da guardare.</h2></div>
-        <div class="our-story-card-img-container">
-            <div class="our-story-card-animation-container">
-                <img alt class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" data-uia="our-story-card-img">
+
+
+        <div class="central-form">
+            <h1>Film, serie TV e tanto altro.<br> Senza limiti.</h1>
+            <h3>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h3>
+            <h3>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo
+                abbonamento.</h3>
+        <div class="barra">
+            <label for="email"></label>
+            <input type="email" class="box" placeholder="Indirizzo Email">
+            <span class="start">Inizia ></span> </div> 
             </div>
-            <div class="our-story-card-animation-image">
-                <img alt="" class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" data-uia="our-story-card-img">
-            </div>
-            <div class="our-story-card-animation">
-                <div class="our-story-card-animation-image">
-                    <img alt="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
-                </div>  
-            </div>
-            <div class="our-story-card-animation-text">
-                <div id="" class="text-0" data-uia="">Stranger Things</div>
-                <div id="" class="text-1" data-uia="">Download in corso...</div>
-            </div>
-        ::after
-            <div class="center-pixel" style="position:absolute"></div>
-        <hr style="width: 100%;">
-        <!--Parte 4-->
-        <figure style="float: right;">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="monitor, phone and tablet">
-        </figure> 
-        
-        <h1>Guarda Netflix <br> ovunque.</h1>
-           <article>
-                <h2>Cellulare, tablet, laptop e TV: scegli tu cosa <br>
-                    usare per guardare in streaming film e serie <br>
-                    TV senza limiti e senza spendere di più.</h2>
-            </article>  
-        <hr style="width: 100%;">
-             
-                
-        <!--Parte 5-->
-        
-        <div class="our-story-card-text">
-            <h1 id="" class="our-story-card-title" data-uia="animation-card-title">Crea profili per i bambini.</h1>
-            <h2 id="" class="our-story-card-subtitle" data-uia="our-story-card-subtitle">I bambini scoprono nuove avventure in compagnia dei loro personaggi preferiti in uno spazio tutto loro già incluso nel tuo abbonamento.</h2>
-        </div>
-        <div class="our-story-card-img-container">
-            <div class="our-story-card-animation-container">
-                <img alt="" class="our-story-card-img" src="https://occ-0-5020-2582.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABbh8I7sjWYNz2f8_bqyLdqQqR5AfT7VDHCKvURfq4-D-a7r0fnLYR01-_teQH4fX1NctSxg5EVZ_cX0tjuzKbmdUvLab.png?r=dda" data-uia="our-story-card-img">
-                <div class="our-story-card-animation">
-                    <div class="our-story-card-animation-text">
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!--Parte 6-->
-        <hr>
-        <section>
-            <center>
-                <article>
-                    <h3>Cos'è Netflix?</h3>
-                    <h4>Netflix è un servizio di streaming che offre una varietà di serie tv,<br>film,documentari  pluripremiati e tanto altro su una vasta gamma <br>
-                    di dispoditivi connessi a Internet</h4>
-                    <h4>Guarda quello che vuoi, in qualsiasi momento e senza interruzioni <br>pubblicitarie. Il tutto a una quota mensile ridotta. C'è sempre qualcosa <br>
-                    di nuovo da scoprire: aggiungiamo nuovi film e serie TV ogni settimana!</h4>
-                </article>
-                <article>
-                    <h3>Quanto costa Netflix?</h3>
-                    <h4>Guarda Netflix su smartphone, tablet, Smart TV, laptop o<br> dispositivi per lo streaming, il tutto per un importo mensile fisso.<br>
-                        Piani da 7,99€ a 17,99€ al mese. Nessun costo aggiuntivo, nessun contratto.
-                    </h4>
-                </article>
-                <article>
-                    <h3>Dove posso guardare Netflix?</h3>
-                    <h4>Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per<br> guardare subito Netflix dal tuo computer su netflix.com oppure da<br>
-                        qualsiasi dispositivo connesso a Internet che supporta l'app<br> Netflix, come smart TV, smartphone, tablet, lettori multimediali per<br>
-                        streaming e console per videogiochi.</h4>
-                        <h4>Con l'app per iOS, Android e Windows 10 puoi anche scaricare i<br> tuoi programmi preferiti. Usa la funzionalità di download per<br>
-                            guardare i contenuti mentre sei in viaggio e senza connessione a<br> Internet. Porta Netflix sempre con te.</h4>
-                </article>
-                <article>
-                    <h3>Come posso disdire?</h3>
-                    <h4>Netflix è flessibile. Nessun contratto fastidioso e nessun impegno.<br> Puoi facilmente disdire il tuo contratto online con due clic.<br>
-                        Nessuna penale: attiva o disdici il tuo account in qualsiasi momento.</h4>
-                </article>
-                <article>
-                    <h3>Cosa posso guardare su Netfix?</h3>
-                    <h4>Netflix ha un nutrito catalogo di lungometraggi, documentari, serie<br> TV, anime, originali Netflix pluripremiati e tanto altro. Guarda tutto<br>
-                        quello che vuoi, in qualsiasi momento.</h4>
-                </article>
-                <article>
-                    <h3>Netfli è adatto ai bambini?</h3>
-                    <h4>L'area Netflix Bambini, già inclusa nell'abbonamento, offre ai<br> genitori un maggiore controllo sui contenuti e ai più piccoli uno<br>
-                        spazio dedicato dove guardare serie TV e film per tutta la famiglia.</h4>
-                    <h4>I profili Bambini hanno un filtro famiglia con PIN che ti permette di<br> limitare l'accesso ai contenuti in base alla fascia d'età e bloccare<br>
-                        la visione di titoli specifici.</h4>
-                </article>
-                <textarea cols="60">Indirizzo email</textarea>
-                <button type="submit" style="background-color: red;"><h3>Inizia ></h3></button>
-            </center>
-        </section>
-        <hr>
-        <footer>
-                <section>
-                    <p>Domande? Chiama 800-130-384</p>
-                    <nav>
-                        <div>
-                            <p>Domande frequenti</p>
-                            <p>Rapporti con gli investitori</p>
-                            <p>Come guardare Netflix</p>
-                            <p>Informazioni sull'azienda</p>
-                            <p>Solo su Netflix</p>
+        </form> 
+        </header> 
+            <hr>
+                    <!-- Parte 2-->
+                    <section>
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                            alt="schermo tv_telecomando" style="float: right;">
+                        <div style="text-align: left;">
+                            <h1>Goditi Netflix sulla tua TV.</h1> <br>
+                            <h3>Guarda Netflix su smart TV, Playstation, Xbox,
+                                Chromecast, Apple TV, lettori Blu-ray e molti
+                                altri dispositivi.</h3>
                         </div>
-                        <div>
-                            <p>Centro Assistenza</p>
-                            <p>Opportunità di lavoro</p>
-                            <p>Condizioni di utilizzo</p>
-                            <p>Contattaci</p>
+                    </section>
+                    <hr style="width: 100%;">
+                    <!--Parte 3-->
+                    <div class="animation-card-container">
+                        <div class="our-story-card-text">
+                            <h1 id class="our-story-card-title" data-uia="animation-card-title">Scarica le tue serie da
+                                guardare
+                                offline.</h1>
+                            <h2 id="" class="our-story-card-subtitle" data-uia="our-story-card-subtitle">Salva
+                                facilmente i tuoi
+                                preferiti così avrai sempre qualcosa da guardare.</h2>
                         </div>
-                        <div>
-                            <p>Account</p>
-                            <p>Riscatta carte regalo</p>
-                            <p>Privacy</p>
-                            <p>Test di velocità</p>
-                        </div>
-                        <div>
-                            <p>Media Center</p>
-                            <p>Acquista carte regalo</p>
-                            <p>Preferenze per i cookie</p>
-                            <p>Note legali</p>
-                        </div>
-                    </nav>
-                </section>
-            <div>
-            <label for="lingua"></label>
-            <select name="lingua" id="lng">
-                <option value="1">italiano</option>
-                <option value="2">Inglese</option>
-            </select>
-            <p>Netflix Italia</p>
-            </div>
-        </footer>
-    </body>
+                        <div class="our-story-card-img-container">
+                            <div class="our-story-card-animation-container">
+                                <img alt class="our-story-card-img"
+                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                                    data-uia="our-story-card-img">
+                            </div>
+                            <div class="our-story-card-animation-image">
+                                <img alt="" class="our-story-card-img"
+                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                                    data-uia="our-story-card-img">
+                            </div>
+                            <div class="our-story-card-animation">
+                                <div class="our-story-card-animation-image">
+                                    <img alt=""
+                                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
+                                </div>
+                            </div>
+                            <div class="our-story-card-animation-text">
+                                <div id="" class="text-0" data-uia="">Stranger Things</div>
+                                <div id="" class="text-1" data-uia="">Download in corso...</div>
+                            </div>
+                            ::after
+                            <div class="center-pixel" style="position:absolute"></div>
+                            <hr style="width: 100%;">
+                            <!--Parte 4-->
+                            <figure style="float: right;">
+                                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+                                    alt="monitor, phone and tablet">
+                            </figure>
+
+                            <h1>Guarda Netflix <br> ovunque.</h1>
+                            <article>
+                                <h2>Cellulare, tablet, laptop e TV: scegli tu cosa <br>
+                                    usare per guardare in streaming film e serie <br>
+                                    TV senza limiti e senza spendere di più.</h2>
+                            </article>
+                            <hr style="width: 100%;">
+
+
+                            <!--Parte 5-->
+
+                            <div class="our-story-card-text">
+                                <h1 id="" class="our-story-card-title" data-uia="animation-card-title">Crea profili per
+                                    i bambini.</h1>
+                                <h2 id="" class="our-story-card-subtitle" data-uia="our-story-card-subtitle">I bambini
+                                    scoprono nuove
+                                    avventure in compagnia dei loro personaggi preferiti in uno spazio tutto loro già
+                                    incluso nel tuo
+                                    abbonamento.</h2>
+                            </div>
+                            <div class="our-story-card-img-container">
+                                <div class="our-story-card-animation-container">
+                                    <img alt="" class="our-story-card-img"
+                                        src="https://occ-0-5020-2582.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABbh8I7sjWYNz2f8_bqyLdqQqR5AfT7VDHCKvURfq4-D-a7r0fnLYR01-_teQH4fX1NctSxg5EVZ_cX0tjuzKbmdUvLab.png?r=dda"
+                                        data-uia="our-story-card-img">
+                                    <div class="our-story-card-animation">
+                                        <div class="our-story-card-animation-text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Parte 6-->
+                            <hr>
+                            <section>
+                                <center>
+                                    <article>
+                                        <h3>Cos'è Netflix?</h3>
+                                        <h4>Netflix è un servizio di streaming che offre una varietà di serie
+                                            tv,<br>film,documentari
+                                            pluripremiati e tanto altro su una vasta gamma <br>
+                                            di dispoditivi connessi a Internet</h4>
+                                        <h4>Guarda quello che vuoi, in qualsiasi momento e senza interruzioni
+                                            <br>pubblicitarie. Il
+                                            tutto a una quota mensile ridotta. C'è sempre qualcosa <br>
+                                            di nuovo da scoprire: aggiungiamo nuovi film e serie TV ogni settimana!</h4>
+                                    </article>
+                                    <article>
+                                        <h3>Quanto costa Netflix?</h3>
+                                        <h4>Guarda Netflix su smartphone, tablet, Smart TV, laptop o<br> dispositivi per
+                                            lo streaming,
+                                            il tutto per un importo mensile fisso.<br>
+                                            Piani da 7,99€ a 17,99€ al mese. Nessun costo aggiuntivo, nessun contratto.
+                                        </h4>
+                                    </article>
+                                    <article>
+                                        <h3>Dove posso guardare Netflix?</h3>
+                                        <h4>Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per<br>
+                                            guardare subito Netflix
+                                            dal tuo computer su netflix.com oppure da<br>
+                                            qualsiasi dispositivo connesso a Internet che supporta l'app<br> Netflix,
+                                            come smart TV,
+                                            smartphone, tablet, lettori multimediali per<br>
+                                            streaming e console per videogiochi.</h4>
+                                        <h4>Con l'app per iOS, Android e Windows 10 puoi anche scaricare i<br> tuoi
+                                            programmi preferiti.
+                                            Usa la funzionalità di download per<br>
+                                            guardare i contenuti mentre sei in viaggio e senza connessione a<br>
+                                            Internet. Porta Netflix
+                                            sempre con te.</h4>
+                                    </article>
+                                    <article>
+                                        <h3>Come posso disdire?</h3>
+                                        <h4>Netflix è flessibile. Nessun contratto fastidioso e nessun impegno.<br> Puoi
+                                            facilmente
+                                            disdire il tuo contratto online con due clic.<br>
+                                            Nessuna penale: attiva o disdici il tuo account in qualsiasi momento.</h4>
+                                    </article>
+                                    <article>
+                                        <h3>Cosa posso guardare su Netfix?</h3>
+                                        <h4>Netflix ha un nutrito catalogo di lungometraggi, documentari, serie<br> TV,
+                                            anime, originali
+                                            Netflix pluripremiati e tanto altro. Guarda tutto<br>
+                                            quello che vuoi, in qualsiasi momento.</h4>
+                                    </article>
+                                    <article>
+                                        <h3>Netfli è adatto ai bambini?</h3>
+                                        <h4>L'area Netflix Bambini, già inclusa nell'abbonamento, offre ai<br> genitori
+                                            un maggiore
+                                            controllo sui contenuti e ai più piccoli uno<br>
+                                            spazio dedicato dove guardare serie TV e film per tutta la famiglia.</h4>
+                                        <h4>I profili Bambini hanno un filtro famiglia con PIN che ti permette di<br>
+                                            limitare l'accesso
+                                            ai contenuti in base alla fascia d'età e bloccare<br>
+                                            la visione di titoli specifici.</h4>
+                                    </article>
+                                    <textarea cols="60">Indirizzo email</textarea>
+                                    <button type="submit" style="background-color: red;">
+                                        <h3>Inizia ></h3>
+                                    </button>
+                                </center>
+                            </section>
+                            <hr>
+                            <footer>
+                                <section>
+                                    <p>Domande? Chiama 800-130-384</p>
+                                    <nav>
+                                        <div>
+                                            <p>Domande frequenti</p>
+                                            <p>Rapporti con gli investitori</p>
+                                            <p>Come guardare Netflix</p>
+                                            <p>Informazioni sull'azienda</p>
+                                            <p>Solo su Netflix</p>
+                                        </div>
+                                        <div>
+                                            <p>Centro Assistenza</p>
+                                            <p>Opportunità di lavoro</p>
+                                            <p>Condizioni di utilizzo</p>
+                                            <p>Contattaci</p>
+                                        </div>
+                                        <div>
+                                            <p>Account</p>
+                                            <p>Riscatta carte regalo</p>
+                                            <p>Privacy</p>
+                                            <p>Test di velocità</p>
+                                        </div>
+                                        <div>
+                                            <p>Media Center</p>
+                                            <p>Acquista carte regalo</p>
+                                            <p>Preferenze per i cookie</p>
+                                            <p>Note legali</p>
+                                        </div>
+                                    </nav>
+                                </section>
+                                <div>
+                                    <label for="lingua"></label>
+                                    <select name="lingua" id="lng">
+                                        <option value="1">italiano</option>
+                                        <option value="2">Inglese</option>
+                                    </select>
+                                    <p>Netflix Italia</p>
+                                </div>
+                            </footer>
+</body>
+
 </html>
