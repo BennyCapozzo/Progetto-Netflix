@@ -113,6 +113,49 @@ picture>img {
 /*Parte 3 */
 
 /*Parte 4 */
+.container4 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 22% 28% 28% 22%;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 8px solid #222222;
+    padding: 50px;
+}
+.text {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin: 0px;
+    padding 10%;
+}
+.tv{
+    position: relative;
+    grid-column: 3 / 4;
+    grid-row: 1;
+    margin: 0px;
+}
+.monitor{
+    position: absolute;
+    z-index: 2;
+    margin: 0px;
+}
+.video {
+    z-index: 1;
+    max-width: 135%;
+    height: auto;
+    margin: 0px;
+}
+.title {
+    font-size: 45px;
+}
+.subtitle{
+    font-size: 23px;
+    font-weight: lighter;
+}
+
 
 /*Parte 5 */
 
