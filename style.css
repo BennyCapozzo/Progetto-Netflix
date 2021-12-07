@@ -1,5 +1,112 @@
 /* Parte 1 */
+body {
+    background-color: black;
+    margin: 0;
+}
 
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://assets.nflxext.com/ffe/siteui/vlv3/03fdc4bf-72f6-4926-83a7-a76e6a1a5591/569d3d3c-54b3-434c-bbb5-61a8cf96cf9b/IT-it-20211115-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr auto 3fr;
+    grid-template-areas:
+        "logo . select"
+        ".. central-form ..";
+}
+
+.logo {
+    grid-area: logo;
+    width: 200px;
+
+}
+
+picture>img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.select {
+    grid-area: select;
+    display: flex;
+    place-self: center right;
+}
+
+.select a {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+    width: 69px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select select {
+    height: 30px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.select select option{
+    background-color: black;
+
+}
+
+.central-form {
+    grid-area: central-form;
+    color: white;
+}
+
+.central-form>h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.central-form>h3 {
+    margin-top: -15px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.start {
+    background-color: red;
+    color: white;
+    width: 40%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.barra {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    width: 100%;
+    min-height: 65px;
+}
 
 /*Parte 2 */
 
@@ -53,3 +160,75 @@
 /*Parte 5 */
 
 /*Parte 6 */
+.domande-frequenti{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px 500px;
+    box-sizing: border-box;
+}
+.domande-frequenti>h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.domande-frequenti>article>h4{
+    font-size: 25px;
+    padding:0px 30px
+}
+.abn{
+    font-size: 25px;
+}
+#barra-sotto{
+    padding-bottom: 100px;
+}
+.container-faq{
+    font-size: 25px;
+    text-align-last: left;
+    padding: 20px 30px;
+    background-color: rgb(69, 69, 69);
+    width: 800px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+footer>section>article{
+    display: flex;
+    color: white;
+    width: 1000px;
+    padding:5px 40px;
+    box-sizing: border-box;
+}
+footer>section>nav {
+    width: 1000px;
+    color: white;
+    display: flex;
+}
+
+footer nav div {
+    padding: 5px 40px;
+}
+.language-container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 5px 40px;
+    box-sizing: border-box;
+ 
+}
+.language-container>select{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    color: white;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.language-container>select>option{
+    color: black;
+}
