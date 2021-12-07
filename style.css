@@ -109,8 +109,14 @@ picture>img {
 }
 
 /*Parte 2 */
+.box-tel-tiv {
+    float: right;
+}
 .tv-con-telecomando {
     color:white;
+}
+.border-style {
+    width: 100%;
 }
 /*Parte 3 */
 
