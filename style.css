@@ -109,11 +109,27 @@ picture>img {
 }
 
 /*Parte 2 */
-.box-tel-tiv {
-    float: right;
+.container-2tv {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+    align-items: center;
+    position: relative;
 }
-.tv-con-telecomando {
-    color:white;
+.text-parte2 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    /*float:left;*/
+    padding-left: 150px;
+    color: white;
+}
+.text-parte2 h1 {
+    font-size:xx-large;
+}
+.img-tv2 {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    /*float: right;*/
 }
 .border-style {
     width: 100%;
