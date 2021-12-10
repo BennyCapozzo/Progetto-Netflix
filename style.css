@@ -122,6 +122,7 @@ picture>img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 8px solid #222222;
     padding: 70px 45px;
+    position: relative;
 }
 .text {
     grid-column: 2 / 3;
@@ -133,6 +134,8 @@ picture>img {
     align-self: flex-start;
     grid-column: 3 / 4;
     grid-row: 1;
+    padding-right: 10%;
+    margin-top: -40px;
 }
 .monitor{
     object-position: -30px;
@@ -149,8 +152,34 @@ picture>img {
     font-size: 45px;
 }
 .subtitle{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: lighter;
+}
+@media screen and (max-width:949px) {
+.container4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    padding: 0px;
+}
+.text {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    text-align: center;
+    padding: 40px;
+}
+.tv {
+    grid-column: 1;
+    grid-row: 2 /3;
+    padding-bottom: 30%;
+    justify-self: center;
+}
+.title {
+    font-size: 35px;
+}
+.subtitle {
+    font-size: 18px;
+}
 }
 
 
