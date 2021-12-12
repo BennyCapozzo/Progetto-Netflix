@@ -444,5 +444,24 @@ footer nav div {
 
 
     /* PARTE 6 */
-
+    .domande-frequenti{
+        margin: 0px;
+    }
+    .container-faq{
+        width: 380px;
+    }
+    footer{
+        align-items:flex-start ;
+        width: 100vw;
+    }
+    footer>section>nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100vw;
+    }
+    footer>section>nav>*{
+        flex: 1 1 10em;
+    }
+    
 }
