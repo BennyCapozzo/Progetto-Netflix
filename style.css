@@ -252,6 +252,58 @@ footer nav div {
     }
 
     /* PARTE 2 */
+    .container2 {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 35% 65%;
+        position: relative;
+        border-bottom: 8px solid #222222;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 500px;
+        max-height: 500px;
+    }
+    .text-parte2 {
+        grid-column: 1;
+        grid-row: 1 / 2;
+        margin: -30px;
+        padding: 10%;
+        text-align: center;
+        align-items: flex-start;
+    }
+    .text-parte2 h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text-parte2 h3 {
+        font-size: 15px;
+    }
+    .img-tv2 {
+        grid-column: 1;
+        grid-row: 2 / 3;
+        position: relative;
+        margin:0px;
+        margin-top: -15px;
+        padding-left: 5%;
+        max-width: 100%;
+    }
+    .misure {
+        width: 90%;
+        position: absolute;
+        max-width: 100%;
+        max-height: auto;
+    }
+    .video-parte2 {
+        position: absolute;
+        margin-top: 14%;
+        margin-left: 12%;
+        width: 66%;
+        max-width: 100%;
+        max-height: auto;
+    }
+    .border-style {
+        width: 100%;
+    }
 
 
 
