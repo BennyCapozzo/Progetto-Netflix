@@ -148,9 +148,6 @@ picture>img {
     max-width: 100%;
     max-height: auto;
 }
-.border-style {
-    width: 100%;
-}
 /*Parte 3 */
 
 /*Parte 4 */
@@ -300,9 +297,6 @@ footer nav div {
         width: 66%;
         max-width: 100%;
         max-height: auto;
-    }
-    .border-style {
-        width: 100%;
     }
 
 
