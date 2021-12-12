@@ -134,6 +134,10 @@ picture>img {
     position: relative;
     margin:0px;
 }
+.misure {
+    width: 100%;
+    height: auto;
+}
 .border-style {
     width: 100%;
 }
