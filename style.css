@@ -111,7 +111,7 @@ picture>img {
 /*Parte 2 */
 .container2 {
     display:grid;
-    grid-template-columns: 22% 28% 28% 22%;
+    grid-template-columns: 15% 35% 35% 15%;
     grid-template-rows: 1fr;
     align-items: center;
     position: relative;
@@ -215,4 +215,40 @@ footer nav div {
 }
 .language-container>select>option{
     color: black;
+}
+@media (max-width:500px){
+    /* PARTE 1 */
+    .box{
+        min-height: 40px;
+        max-width: 100%;
+    }
+    .barra{
+        flex-direction: column;
+    }
+    .start{
+        font-size: 15px;
+        min-height: 35px;
+        margin-top: 10px;
+        max-width: 20%;
+    }
+    .central-form>h3{
+        line-height: 20px;
+        font-size: 15px;
+        margin: 10px 25px;
+    }
+
+    /* PARTE 2 */
+
+
+    /* PARTE 3 */
+
+
+    /* PARTE 4 */
+
+
+    /* PARTE 5 */
+
+
+    /* PARTE 6 */
+
 }
