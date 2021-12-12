@@ -15,7 +15,7 @@ header {
     grid-template-rows: 1fr auto 3fr;
     grid-template-areas:
         "logo . select"
-        ".. central-form ..";
+        "central-form central-form central-form";
 }
 
 .logo {
@@ -68,17 +68,22 @@ picture>img {
 .central-form {
     grid-area: central-form;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;   
+    align-items: center;
+    margin-top: 20px;
 }
 
 .central-form>h1 {
-    font-size: 70px;
+    font-size: 4vw;      /*70px */
     text-align: center;
 }
 
 .central-form>h3 {
     margin-top: -15px;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 30px;    /* 30px */
+    line-height: 6vh;
     text-align: center;
 }
 
@@ -86,7 +91,7 @@ picture>img {
     background-color: red;
     color: white;
     width: 40%;
-    min-height: 70px;
+    min-height: 94px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +99,7 @@ picture>img {
 }
 
 .barra {
-    width: 100%;
+    width: 70%;
     min-height: 60px;
     display: flex;
     flex-direction: row;
@@ -105,11 +110,38 @@ picture>img {
 
 .box {
     width: 100%;
-    min-height: 65px;
+    min-height: 88px;
 }
 
 /*Parte 2 */
-
+.container2 {
+    display:grid;
+    grid-template-columns: 22% 28% 28% 22%;
+    grid-template-rows: 1fr;
+    align-items: center;
+    position: relative;
+    border-bottom: 8px solid #222222;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-parte2 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin:0px;
+    padding: 10%;
+}
+.text-parte2 h1 {
+    font-size: 45px;
+}
+.img-tv2 {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    position: relative;
+    margin:0px;
+}
+.border-style {
+    width: 100%;
+}
 /*Parte 3 */
 
 /*Parte 4 */
@@ -192,6 +224,19 @@ picture>img {
     font-size: 25px;
     padding:0px 30px
 }
+summary{
+    list-style: none;
+    display: flex;
+}
+details{
+    background-color: rgb(69, 69, 69);
+    margin: 5px;
+}
+details>h4{
+    font-size: 25px;
+    padding:15px 30px;
+
+}
 .abn{
     font-size: 25px;
 }
@@ -204,6 +249,7 @@ picture>img {
     padding: 20px 30px;
     background-color: rgb(69, 69, 69);
     width: 800px;
+    margin: 5px;
 }
 
 
@@ -248,9 +294,6 @@ footer nav div {
 .language-container>select>option{
     color: black;
 }
-
-
-
 
 @media (max-width:500px){
     /* PARTE 1 */
