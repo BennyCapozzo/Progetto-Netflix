@@ -113,6 +113,9 @@ picture>img {
     display:grid;
     grid-template-columns: 15% 35% 35% 15%;
     grid-template-rows: 1fr;
+    height: 50vh;
+    max-height: 400px;
+    min-height: 400px;
     position: relative;
     border-bottom: 8px solid #222222;
     color: white;
@@ -253,6 +256,9 @@ footer nav div {
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: 35% 65%;
+        height: 50vh;
+        max-height: 400px;
+        min-height: 400px;
         position: relative;
         border-bottom: 8px solid #222222;
         color: white;
