@@ -483,7 +483,16 @@ footer nav div {
 
     /* PARTE 5 */
 
+    .container-our-story{
+        display: flex; 
+        flex-direction: column;
+    }
 
+    .our-story-card-img{
+        width: 500px;
+        height: 350px;
+    }
+    
     /* PARTE 6 */
     .domande-frequenti{
         margin: 0px;
