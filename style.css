@@ -499,6 +499,21 @@ footer nav div {
         height: 350px;
     }
     
+    .our-story-card-text{
+        order: 1;
+        text-align: center;
+        
+    }
+
+    .our-story-card-title{
+        font-size: 30px;
+    }
+
+    .our-story-card-subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    
     /* PARTE 6 */
     .domande-frequenti{
         margin: 0px;
